@@ -2,11 +2,20 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-    background-color: #000000;
-    background-image: url(linux-penguin-and-rainbow-background-imsv6hxt0e8zcl7m-3730406657.jpg);
+    background-color: black;
+    background-image: url(/home/saboo/Downloads/blackhole.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: none;
+    margin: 0;
+    height: 100vh;
 }
 
 .greet {
     color: #ffffff;
     font-family: "Courier New", Courier, monospace;
+}
+.intro {
+    color: #ffffff;
+    font-family: "courier New", "Courier New", Courier, monospace;
 }
