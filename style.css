@@ -8,6 +8,10 @@
 
 body {
     overflow-x: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .hero-header {
@@ -159,6 +163,7 @@ nav .navlinks li a {
     transform: scale(1.2);
     fill: var(--accent-color);
 }
+
 @media (max-width: 930px) {
     .container {
         flex-direction: column;
