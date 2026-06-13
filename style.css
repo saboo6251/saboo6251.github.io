@@ -168,7 +168,7 @@ nav .navlinks li a {
     fill: var(--accent-color);
 }
 
-@media (max-width: 930px) {
+@media screen and (max-width: 930px) {
     .container {
         flex-direction: column;
     }
@@ -186,8 +186,7 @@ nav .navlinks li a {
     .social a {
         padding: 0.5em;
     }
-    img,
-    svg {
+    img {
         -webkit-touch-callout: none;
         -webkit-user-drag: none;
         user-drag: none;
