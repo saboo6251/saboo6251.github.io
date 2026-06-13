@@ -12,6 +12,7 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-drag: none;
+    user-drag: none;
 }
 
 body {
@@ -185,10 +186,5 @@ nav .navlinks li a {
     }
     .social a {
         padding: 0.5em;
-    }
-    img {
-        -webkit-touch-callout: none;
-        -webkit-user-drag: none;
-        user-drag: none;
     }
 }
