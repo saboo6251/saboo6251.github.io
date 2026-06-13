@@ -159,38 +159,22 @@ nav .navlinks li a {
     transform: scale(1.2);
     fill: var(--accent-color);
 }
-/*@media (max-width: 930px) {
-    nav .togglebtn {
-        display: initial;
+@media (max-width: 930px) {
+    .container {
+        flex-direction: column;
     }
-
-    .click {
-        top: 45px;
+    .container .hero-pic {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 15px solid #444;
+        box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
     }
-    .click span {
-        position: absolute;
-        margin-top: 12px;
+    .social {
+        justify-content: center;
     }
-    .click span:first-child {
-        transform: rotate(-40deg);
+    .social a {
+        padding: 0.5em;
     }
-    .click span:nth-child(2) {
-        opacity: 0;
-        margin: 0;
-    }
-    .click span:last-child {
-        transform: rotate(45deg);
-        top: 0;
-    }
-    nav .navlinks {
-        position: absolute;
-        top: 110px;
-        right: 0;
-        bottom: 60%;
-        background-color: #222;
-        z-index: 3;
-        box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
-        transition: 0.5s;
-        padding: 25 0;
-    }
-}*/
+}
